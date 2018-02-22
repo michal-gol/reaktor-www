@@ -2,11 +2,8 @@
 body {background-color:#9AB727};
 
 
-div {
-        line-height:60px; background-color:white;
-        
-      }
-
-.pole1 {line-height:60px; background-color:white; font-size: 20px;}
-.pole2 {line-height:120px; background-color:red; font-size: 40px;}
-.pole3 {line-height:240px; background-color:blue;}
+div{}
+.pole1{width:100%;margin:0px 50px 0px 20px;line-height:60px; background-color:white; font-size: 20px;border:1px dashed blue;}
+.pole2_1{width:15%;float:left;margin:0px 20px 0px 20px;line-height:60px; background-color:green; font-size: 20px;border:1px dashed white;}
+.pole2_2{width:80%;float:right;margin:0px 20px 0px 0px;line-height:60px; background-color:red; font-size: 20px;border:1px dashed white;}
+.pole3{width:100%;margin:0px 20px 5px 20px;line-height:60px; background-color:blue; font-size: 20px;border:1px dashed white;}
