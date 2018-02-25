@@ -1,9 +1,181 @@
-/* body */
-body {background-color:#9AB727};
+html, body {
+	background-color: #004E95;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+}
 
+#NAGLOWEK {
+	background-color: #888;
+	background-image: -webkit-linear-gradient(45deg, #004E95 40%, #013A6B 40%);
+	min-height: 130px;
+}
 
-div{}
-.pole1{width:100%;margin:0px 50px 0px 20px;line-height:60px; background-color:white; font-size: 20px;border:1px dashed blue;}
-.pole2_1{width:15%;float:left;margin:0px 20px 0px 20px;line-height:60px; background-color:green; font-size: 20px;border:1px dashed white;}
-.pole2_2{width:80%;float:right;margin:0px 20px 0px 0px;line-height:60px; background-color:red; font-size: 20px;border:1px dashed white;}
-.pole3{width:100%;margin:0px 20px 5px 20px;line-height:60px; background-color:blue; font-size: 20px;border:1px dashed white;}
+#MENU {
+	width: 180px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: #013A6B;
+	min-height: 870px;
+}
+
+#INFORMACJE {
+	width: 180px;
+	float: right;
+	padding-right:2px;
+	overflow: hidden;
+	position: relative;
+	background-color: #004E95;
+}
+
+#TRESC {
+	margin-top: 0px;
+	margin-left: 180px;
+	margin-bottom: 0px;
+	margin-right: 182px;
+	background-color: #013A6B;
+	background-image: -webkit-linear-gradient(35deg, #013A6B 40%, #004E95 40%);
+	min-height: 870px;
+	background-color: #fff;
+}
+
+#STOPKA {
+	margin-left: 180px;
+	margin-right: 180px;
+	clear: both;
+	background-color: #013A6B;
+	background-image: -webkit-linear-gradient(35deg, #004E95 40%, #013A6B 40%);
+	min-height: 80px;
+}
+
+/* utworzone class-y */
+h1, h2 {
+	text-shadow: 1px 1px 0 rgba(0,0,205,5);
+	}
+
+.logo {
+	height: 115px;
+	margin-top: 10px;
+	margin-left: 65px;
+ }
+ 
+ .slogan {
+	height: 115px;
+	margin-top: 10px;
+	margin-left: 65px;
+ }
+ 
+.duze_info_tlo {
+  background-color:#ffffff;
+  opacity: 0.85;
+  border:1px solid #3b3262;
+  border-radius: 2px 7px 7px 15px;
+  color:#000000;
+  padding:5px 10px 5px 10px;
+  width:95%;
+  display: block;
+  margin:20px 20px 5px 10px;
+  float: left;
+  position: relative;
+ }
+ 
+ .duze_info_tekst { /* to można połączyć z duze_info_tlo i trzeba znaleźć sposób na to, aby tekst nie był "opacity" */
+  font-family: Georgia, serif;
+  font-size: 17px;
+  text-align: justify;
+ }
+ 
+ .srednie_info_tlo {
+  background-color:#dfdfdf;
+  opacity: 0.65;
+  border:1px solid #3b3262;
+  border-radius: 15px 15px 15px 15px;
+  color:#000000;
+  padding:10px 10px 10px 10px;
+  width:17%;
+  display: block;
+  margin: 0px auto 10px auto;
+  position: relative;
+  font-family: Monospace;
+  font-size: 13px;
+  text-align: center;
+ }
+ 
+ .male_info {
+  background-color:#ffcc9b;
+  opacity: 0.9;
+  border:1px solid #3b3262;
+  border-radius: 10px 10px 10px 10px;
+  color:#000000;
+  padding:8px 8px 8px 8px;
+  width:155px;
+  display: block;
+  margin:5px auto 15px auto;
+  position: relative;
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  text-align: justify;
+  font-style: italic;
+ }
+
+  .maly_naglowek {
+	background-color:#ffffff;
+	border:1px solid #000000;
+	border-radius: 5px 5px 5px 5px;
+	width: 145px;
+    color: black;
+    padding: 15px 10px;
+	margin: 15px auto 5px auto;
+	text-align: center;
+}
+ 
+ .btn {
+	border:1px solid #3b3262;
+	border-radius: 20px 7px 7px 20px;
+	width: 150px;
+    color: white;
+    padding: 12px 28px;
+	margin: 3px 0 3px 15px;
+    cursor: pointer;
+	font-weight: bold;
+}
+
+.zakladka01 {background-color: #ff8181; color: #1a1a1a;}
+.zakladka01:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka02 {background-color: #ff81bf; color: #1a1a1a;}
+.zakladka02:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka03 {background-color: #d481ff; color: #1a1a1a;}
+.zakladka03:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka04 {background-color: #8184ff; color: #1a1a1a;}
+.zakladka04:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka05 {background-color: #81c8ff; color: #1a1a1a;}
+.zakladka05:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka06 {background-color: #81ffec; color: #1a1a1a;}
+.zakladka06:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka07 {background-color: #81ff9c; color: #1a1a1a;}
+.zakladka07:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka08 {background-color: #b0ff81; color: #1a1a1a;}
+.zakladka08:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka09 {background-color: #efff81; color: #1a1a1a;}
+.zakladka09:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka10 {background-color: #ffe381; color: #1a1a1a;}
+.zakladka10:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.zakladka11 {background-color: #ff8181; color: #1a1a1a;}
+.zakladka11:hover {background: #ffffff; color: black; border-right:14px double #013A6B; padding: 12px 15px 12px 28px;}
+
+.ramka {background:#3b3262; border:3px solid #ffffff; color:#303030; display:inline; padding:1px;}
+.left {float:left; margin:3px 10px 2px 0;}
+.right {float:right; margin:2px 0 2px 10px;}
+.center {display:block; margin-left:auto; margin-right:auto;}
